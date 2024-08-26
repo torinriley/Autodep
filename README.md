@@ -1,30 +1,23 @@
 # AutoDep
 
-AutoDep is a command-line tool that automatically scans your Python project for dependencies and generates a `requirements.txt` file. It simplifies dependency management by ensuring your project’s requirements are always up-to-date.
+AutoDep is a Python-based command-line tool that automatically scans your project for dependencies and generates the appropriate dependency file, such as `requirements.txt`, `package.json`, `Gemfile`, and others. AutoDep simplifies dependency management by ensuring your project’s requirements are always up-to-date, regardless of the programming language.
 
 ## Features
 
-- **Automatic Dependency Scanning:** AutoDep scans your project for all `import` statements and identifies the required dependencies.
-- **Requirements File Generation:** It generates a `requirements.txt` file with all detected dependencies, ready to use with `pip`.
-- **Customizable Output:** Specify the directory to scan and the output path for the generated `requirements.txt` file.
-
+- **Automatic Dependency Scanning:** AutoDep scans your project for dependency declarations (e.g., `import`, `require`, `use`) and identifies the required packages or modules.
+- **Multi-Language Support:** AutoDep supports multiple programming languages and generates the correct dependency file for each language.
+- **Customizable Output:** Specify the directory to scan and the output path for the generated dependency file.
 
 ## Supported Languages
 
-- [Python](python/README.md)
-- [JavaScript](javascript/README.md)
-- [Ruby](ruby/README.md)
+AutoDep currently supports the following languages:
 
-## Getting Started
-Each language version has its own setup and usage instructions. Please navigate to the directory for the language you are interested in:
-
-- **Python:** `cd python` and follow the instructions in `python/README.md`.
-- **JavaScript:** `cd javascript` and follow the instructions in `javascript/README.md`.
-- **Ruby:** `cd ruby` and follow the instructions in `ruby/README.md`.
-
-## Contributing
-
-Contributions are welcome for new languages or improvements to existing versions. Please see the CONTRIBUTING.md file in each language directory for specific guidelines.
+- **Python:** Generates `requirements.txt`
+- **JavaScript/Node.js:** Generates `package.json`
+- **Ruby:** Generates `Gemfile`
+- **PHP:** Generates `composer.json`
+- **Go:** Generates `go.mod`
+- **Java:** Generates `pom.xml` (for Maven) or `build.gradle` (for Gradle)
 
 ## Installation
 
@@ -33,3 +26,5 @@ Install AutoDep using pip:
 ```bash
 pip install autodep
 
+```
+(coming soon)
