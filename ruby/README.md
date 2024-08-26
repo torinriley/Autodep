@@ -13,5 +13,5 @@ AutoDep for Ruby is a command-line tool that automatically scans your Ruby proje
 You can use AutoDep directly by downloading the script, or clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/autodep.git
-cd autodep/ruby
+git clone https://github.com/torinriley/Autodep.git
+cd Autodep/ruby
