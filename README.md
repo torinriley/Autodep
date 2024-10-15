@@ -11,7 +11,7 @@ AutoDep is a Python-based command-line tool that automatically scans your projec
 ## Supported Languages
 
 AutoDep currently supports the following languages:
-
+   
 - **Python:** Generates `requirements.txt`
 - **JavaScript/Node.js:** Generates `package.json`
 - **Ruby:** Generates `Gemfile`
@@ -27,4 +27,3 @@ Install AutoDep using pip:
 pip install autodep
 
 ```
-(coming soon)
